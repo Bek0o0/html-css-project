@@ -1,0 +1,34 @@
+/*the side bgroun color & font style*/
+body,
+.html {
+  background-color: gainsboro;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 0.8em;
+  font-size: 30px;
+}
+
+/*the header style*/
+.header {
+  border: 5px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  text-decoration-color: hotpink;
+}
+
+.article {
+  font-size: 17px;
+  line-height: 2em;
+}
+
+.div {
+  border-style: dotted;
+  border-color: lightcoral;
+}
+
+.footer {
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  line-height: 7px;
+}
