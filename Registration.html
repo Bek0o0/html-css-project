@@ -56,7 +56,7 @@
                           <a class="nav-link text-white p" href="HOME.html">Home</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link text-white p" href="Registration.html">Registation</a>
+                          <a class="nav-link text-white p" href="Registration.html">Registration</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link text-white p" href="aboutus.html">Courses</a>
@@ -67,6 +67,9 @@
                       <li class="nav-item">
                           <a class="nav-link text-white p" href="Photogalery.html">Photos </a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white p" href="signin.html">Sign in </a>
+                    </li>
                     </ul>
           </nav>
         
@@ -79,13 +82,13 @@
         <div class="col-10 bg-gradient-light">
             <div class="row ">
               
-              <h1 class="text-center h">Regster to be one of our student or volunteers</h1>
-              <form class="needs-validation" novalidate>
+              <h1 class="text-center h">Regster to be one of our student or volunteers</h1><br><br><br>
+              <form class="needs-validation " style="margin-left: 4em;" novalidate>
                   <div class="form-row">
   
                       <div class="col-md-4 mb-3">
                           <label for="validationTooltip01">First name</label>
-                          <input type="text" class="form-control" id="validationTooltip01" value="Mark" required />
+                          <input type="text" class="form-control" id="validationTooltip01" value="" required />
                           <div class="valid-tooltip">
                               Looks good!
                           </div>
@@ -94,7 +97,7 @@
                       
                       <div class="col-md-4 mb-3">
                           <label for="validationTooltip02">Last name</label>
-                          <input type="text" class="form-control" id="validationTooltip02" value="Otto" required />
+                          <input type="text" class="form-control" id="validationTooltip02" value="" required />
                           <div class="valid-tooltip">
                               Looks good!
                           </div>
@@ -104,7 +107,7 @@
                           <label for="validationTooltipUsername">Username</label>
                           <div class="input-group">
                               <div class="input-group-prepend">
-                                  <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                  
               </div>
               <input
                 type="text"
@@ -122,31 +125,47 @@
         </div>
   
         <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <label for="validationTooltip03">City</label>
-            <input
-              type="text"
-              class="form-control"
-              id="validationTooltip03"
-              required
-            />
-            <div class="invalid-tooltip">
-              Please provide a valid city.
-            </div>
-          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+        </div>
+        
           <div class="col-md-3 mb-3">
-            <label for="validationTooltip04">State</label>
+            <label for="validationTooltip04">City</label>
             <select class="custom-select" id="validationTooltip04" required>
               <option selected disabled value="">Choose...</option>
-              <option>...</option>
+              <option>London</option>
+              <option>Manchester</option>
+              <option>Birmingham</option>
+              <option>Bristol</option>
+              <option> Brighton</option>
+              <option> Liverpool</option>
+              <option> Oxford</option>
+              <option>Cardiff</option>
+              <option>Edinburgh</option>
+              <option> Glasgow</option>
+              <option>Armagh</option>
+              <option> Lisburn </option>
+              <option> Newry</option>
+              <option> Bangor</option>
+              <option>Swansea</option>
+              <option>Bristol </option>
+              <option>Cambridge </option>
+              <option>Canterbury </option>
+              <option> Carlisle Chester</option>
+              <option> Carlisle Chester</option>
+              <option> Other</option>
             </select>
+
+           
+
             <div class="invalid-tooltip">
-              Please select a valid state.
+              Please select a valid city
             </div>
           </div>
   
           <div class="col-md-3 mb-3">
-            <label for="validationTooltip05">Zip</label>
+            <label for="validationTooltip05">Postcode</label>
             <input
               type="text"
               class="form-control"
@@ -155,12 +174,62 @@
             />
   
             <div class="invalid-tooltip">
-              Please provide a valid zip.
+              Please provide a valid Postcode.
             </div>
           </div>
         </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
-        <br><br><br>
+   
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    I would like to be one of ITCM student
+  </label>
+</div>
+<br>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+  <label class="form-check-label" for="defaultCheck2">
+    I would like to volunteer 
+  </label>
+</div>
+
+  <br>
+
+  <div class="form-group">
+    <label for="inputPassword6">Password</label>
+    <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+    <small id="passwordHelpInline" class="text-muted">
+      Must be 8-20 characters long.
+    </small>
+  </div>
+
+  <div class="form-group">
+    <label for="inputPassword6"> confirm your password</label>
+    <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+    <small id="passwordHelpInline" class="text-muted">
+      Must be 8-20 characters long.
+    </small>
+  </div>
+
+<br><br>
+<div class="form-group">
+  <label for="exampleFormControlFile1">Please add a copy of your ID</label>
+  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+</div>
+<br><br>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">I would like to receive emails from ITCM</label>
+</div>
+<br>
+
+  <button class="btn btn-primary" type="submit">Regster</button>
+
+        <br>
+        <button  class="btn btn-primary" type="submit">Regster</button>
+        <a href="singin.html" class="btn btn-primary stretched-link">Sign in</a>
+
+        
       </form>
                
  
@@ -202,5 +271,10 @@
      </svg>
  
             </footer>
+
+            <script src="index.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
