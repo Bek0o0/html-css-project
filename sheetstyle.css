@@ -9,5 +9,40 @@
 }
 
 .footer {
-  margin-top: 30em;
+  margin-top: 2em;
+}
+
+.p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.na {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.vid {
+  align-self: center;
+}
+.h. {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+@media (max-width: 576px) {
+  .p {
+    font-size: 10px;
+  }
+  .size {
+    height: 5em;
+  }
+  .na {
+    height: 0.5em;
+  }
+  .footer {
+    font-size: 6px;
+  }
+  .h {
+    font-size: 15px;
+  }
+  .vid {
+    align-self: center;
+    margin-left: 3em;
+  }
 }
